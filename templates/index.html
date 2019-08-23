@@ -1,0 +1,23 @@
+{% include "header.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  position: absolute;
+  left: 500px;
+  top: 160px;
+  z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<img src="{{ url_for('calc')  }}" width="800" height="600">
+
+</body>
+</html>
+
+
